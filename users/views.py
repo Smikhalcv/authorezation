@@ -19,9 +19,3 @@ def signup(request):
         'signup.html',
         context
     )
-
-def logout_user(request):
-    return render(
-        request,
-        'logout.html'
-    )
